@@ -53,9 +53,9 @@ document.getElementById("change-currency").onclick = function (e) {
         newCurrency = "BYN";
         coefficient = 3;
     } else if (currentCurrency === "BYN") {
-        newCurrency = " UZS";
+        newCurrency = "UZS";
         coefficient = 12400;
-    } else if (currentCurrency === " UZS") {
+    } else if (currentCurrency === "UZS") {
         newCurrency = "¥";
         coefficient = 10;
     }
